@@ -27,6 +27,7 @@ jobs:
         with:
           targetPlatform: WebGL      
           unityVersion: 2020.3.15f1
+          projectPath: Test
           buildMethod: UnityBuilderAction.BuildScript.Build
        # Output
       - uses: actions/upload-artifact@v2
