@@ -134,7 +134,7 @@ namespace UnityBuilderAction
                 subtarget = buildSubtarget
 #endif
             };
-            AssetDatabase.SaveAssets();
+
             BuildSummary buildSummary = BuildPipeline.BuildPlayer(buildPlayerOptions).summary;
             ReportSummary(buildSummary);
             ExitWithResult(buildSummary.result);
